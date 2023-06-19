@@ -1,0 +1,232 @@
+html{
+
+    color : black;
+    font-family : "Georgia","Serif","Lucida Console";
+    border-style:solid;
+    border-color: black;
+    background : #fef6dd;
+    border-size : 10%;
+    text-align : center;
+}
+.header {
+
+  color: black;
+  text-align: right;
+  padding: 15px;
+  font-family: "Bayon",sans-serif;
+  font-size: 25px;
+  height : 5%;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  padding: 8px;
+}
+li a:hover {
+  background-color: #B1A296;
+}
+.aboutimg{
+
+    padding-left: 15px;
+    padding-right:15px;
+    padding-top: 10px;
+    height: 70%;
+    object-fit: fill;
+    float : left;
+}
+.aboutimg img{
+    border-color: #E2725B;
+    width: 750px;
+}
+h1{
+    text-align : center;
+    border-color: #5D5C61;
+    border-style:solid;
+    background : #fef6dd;
+    font-size : 80px;
+    border-style:solid;
+    border-color: #fef6dd;
+    height : 60%;
+    color:#E2725B;
+    font-family : "Tangerine";
+    padding-right : 20px;
+}
+.about{
+    text-align: center;
+    font-family : "Dosis",cursive;
+    border-style:solid;
+    border-color: #ADD8E6;
+    background : #ADD8E6;
+    height : 25%;
+    font-size : 20px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+.cagrperacc{
+    font-size: 100px;
+    font-family : "Dosis",cursive;
+    text-align : center;
+    border-style:solid;
+    border-color: #fff1b5;
+    background : #fff1b5;
+    height : 10%;
+
+}
+.cagracc{
+    font-size: 40px;
+    font-family : "Dosis",cursive;
+    text-align : center;
+     background : #fff1b5;
+     height : 10%;
+}
+.cagrperapp{
+    font-size: 100px;
+    font-family : "Dosis",cursive;
+    text-align : center;
+    border-style:solid;
+    border-color: #ffe1d0;
+    background : #ffe1d0;
+    height : 12.5%;
+}
+.cagrapp{
+    font-size: 40px;
+    font-family : "Dosis",cursive;
+    text-align : center;
+    background : #ffe1d0;
+    border-style:solid;
+    border-color: #ffe1d0;
+    height : 12.5%;
+}
+.one{
+    width: 25%;
+    height: 400px;
+    float:left;
+    color : #7CB9E8;
+    text-align : center;
+    font-family: 'Bebas Neue', cursive;
+    font-size : 28px;
+    letter-spacing : 2px;
+}
+.two{
+    width: 25%;
+    height: 400px;
+    float:left;
+    color : #1CAC78;
+    text-align : center;
+    font-family: 'Bebas Neue', cursive;
+    font-size : 28px;
+    letter-spacing : 2px;
+}
+.three{
+    width: 25%;
+    height: 400px;
+    float:left;
+    color : #DB7093;
+    text-align : center;
+    font-family: 'Bebas Neue', cursive;
+    font-size : 28px;
+    letter-spacing : 2px;
+}
+.four{
+    width: 25%;
+    height: 400px;
+    float:left;
+    color : #FF6347;
+    text-align : center;
+    font-family: 'Bebas Neue', cursive;
+    font-size : 28px;
+    letter-spacing : 2px;
+}
+.seasons{
+    color : #DE3163;
+    text-align : center;
+    font-family : "Bruno Ace SC",cursive;
+    font-size : 60px;
+    height : 25%;
+}
+.seg{
+    font-family : "Bruno Ace SC";
+    color:black;
+    text-align:center;
+    font-size : 50px;
+}
+.s1{
+    width: 100%;
+    height: 20%;
+    float:left;
+    background : #eec0c8;
+    text-align : center;
+    font-family : "Dosis",cursive;
+    font-size : 20px;
+    line-height : 22px;
+}
+.s2{
+    width: 100%;
+    height: 20%;
+    float:left;
+    background : #F08080;
+    text-align : center;
+    font-family : "Dosis",cursive;
+    font-size : 20px;
+    line-height : 22px;
+}
+.s3{
+    width: 100%;
+    height: 20%;
+    float:left;
+    background : #FBCEB1;
+    text-align : center;
+    font-family : "Dosis",cursive;
+    font-size : 20px;
+    line-height : 22px;
+}
+.s4{
+    width: 100%;
+    height: 20%;
+    float:left;
+    background : #FFA07A;
+    text-align : center;
+    font-family : "Dosis",cursive;
+    font-size : 20px;
+    line-height : 22px;
+}
+.s5{
+    width: 100%;
+    height: 20%;
+    float:left;
+    background : #F0E68C;
+    text-align : center;
+    font-family : "Dosis",cursive;
+    font-size : 20px;
+    line-height : 22px;
+}
+.s5 h2{
+    font-size : 30px;
+    color : black;
+}
+
+.lst{
+
+    text-align : center;
+    font-family : "Bruno Ace SC",cursive;
+    height : 60%;
+    font-size : 40px;
+    padding-top: 100px;
+    padding-right: 80px;
+}
+.lst h1{
+    padding-top: 5%;
+}
+.myPlot{
+    background-color: #FFA07A;
+}
