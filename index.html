@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FASHION INDUSTRY</title>
+    <link rel="stylesheet" href="Fashion_style.css">
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@500&family=Tangerine:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bayon&family=Oldenburg&display=swap" rel="stylesheet">
+    <div class="header" >
+        <ul>
+
+
+            <li><a href="#myPlot" style="color: #DB7093">Analysis</a></li>
+            <li><a href="#seg" style="color: #FF6347">Segmentation</a></li>
+            <li><a href="#seasons" style="color: #DB7093">Seasons</a></li>
+            <li><a href="#stats" style="color: #FF6347">Statistics</a></li>
+            <li><a href="#home" style="color: #DB7093">Home</a></li>
+
+
+        </ul>
+    </div>
+
+    <div class="aboutimg" id="home">
+        <img src="fashion_about2.jpg" >
+    </div>
+
+    <h1><br>“Fashion is the armor to survive the reality of everyday life.” </h1>
+    <h2 style="text-align: center color: #F88379 ">–    Bill Cunningham</h2>
+</head>
+<body>
+
+    <div class="about" id="about">
+        <br>
+
+        <br><br><br>According to recent reports, the global fashion industry is valued at approximately $2.5 trillion. This figure is expected to continue growing in the coming years, with a projected CAGR of 5.5% between 2021 and 2028.
+         The global fashion industry is a dynamic and rapidly growing sector, with plenty of opportunities for businesses and individuals looking to make their mark. Keep an eye on our website for more insights and analysis into this exciting industry.
+        <br><br><br><br>
+    </div>
+
+    <div class="cagrperacc" id="stats">
+        12.3%
+    </div>
+    <div class="cagracc">
+        estimated CAGR for global fashion accessories market.<br><br>
+    </div>
+    <div class="cagrperapp">
+        5.7%
+    </div>
+    <div class="cagrapp">
+        estimated CAGR for global apparel market.<br><br>
+    </div>
+
+    <div class="seasons" id="seasons">
+    <ul><ul>seasons of fashion calendar<br>
+    </div>
+        <div class="one">
+            <img src="fall_fashion.jpg" alt="fall" style="  width : 400px">
+            <h3>FALL</h3>
+
+        </div>
+        <div class="two">
+            <img src="winter_fashion.jpg" alt="winter" style="  width : 400px">
+            <h3>WINTER</h3>
+        </div>
+        <div class="three">
+            <img src="spring_fashion.jpg" alt="spring" style=" width : 400px">
+            <h3>SPRING</h3>
+        </div>
+        <div class="four">
+            <img src="resort_fashion.jpg" alt="resort" style=" width : 400px">
+            <h3>RESORT</h3>
+        </div>
+    <div class="seg" id="seg">
+        market segmentation : formal<br><br>
+        <img src="Business_dresscode.jpg"alt="AM" style="width: 200px height: 800px">
+        <div class="s1"><h2 style="font-family : 'Bruno Ace SC' ">Clothing</h2>
+            <ul>A formal outfit for women typically includes a dress, a suit, or a skirt and blouse.
+                <ul>The clothing should be well-fitted and made of high-quality fabric.
+                    <ul>Needs: Comfortable and stylish, Monochrome
+                        <ul>Examples: H&M, Forever 21, Zara
+        </div>
+        <div class="s2"><h2 style="font-family : 'Bruno Ace SC' ">Footwear</h2>
+            <ul>Women's formal shoes should be comfortable, elegant, and match the color of the outfit.
+                <ul>Heels are often preferred, but flats are also acceptable.
+                    <ul>Needs: Elegant and high-quality
+                        <ul>Examples: Michael Kors, Tory Burch, Burberry
+        </div>
+        <div class="s3"><h2 style="font-family : 'Bruno Ace SC' ">Accessories</h2>
+            <ul>Accessories can make or break a formal look. Jewelry, such as earrings, necklaces, and bracelets, should be minimalistic and complement the outfit.
+                <ul>A clutch or small handbag is also a good addition.
+                    <ul>A belt may also be necessary for a suit or dress.
+                        <ul>Examples: Nike, Adidas, Levi's
+        </div>
+        <div class="s4"><h2 style="font-family : 'Bruno Ace SC' ">Hair and makeup</h2>
+            <ul>Hair and makeup should be polished and well-groomed.
+                <ul>A classic up-do or a sleek hairstyle is often preferred.
+                    <ul>Makeup should be subtle, with a focus on a natural look.
+                        <ul>Examples: Hugo Boss, Armani, Ralph Lauren
+        </div>
+        <div class="s5"><h2 style="font-family : 'Bruno Ace SC' ">Outerwear</h2>
+            <ul>A jacket or coat may be necessary, especially for colder weather.
+                <ul>The outerwear should also match the outfit and be appropriate for the occasion.
+                    <ul>It adds a touch of completion to the look.
+                        <ul>Examples: The Children's Place, Carter's, OshKosh B'gosh
+        </div>
+    </div>
+    <div class="gap">
+
+    </div>
+
+
+    <div class="lst" id="lst">
+
+        <h1 style="text-align:center ">Case Study : Fashion Communication</h1>
+    </div>
+    <div id="myPlot" style="width:100%">
+
+    <script>
+const xArray = [2014,2015,2016,2017,2018,2019,2020,2021,2022,2023,2024,2025,2026,2027];
+const yArray = [1.54,1.45,1.46,1.52,1.58,1.58,1.40,1.55,1.53,1.74,1.79,1.84,1.89,1.94];
+
+// Define Data
+const data = [{
+  x: xArray,
+  y: yArray,
+  mode:"lines+markers"
+}];
+
+// Define Layout
+const layout = {
+  xaxis: {range: [2014, 2027], title: "Year"},
+  yaxis: {range: [1.40, 1.94], title: "Revenue in Billions"},
+  title: "Revenue over the years"
+};
+
+// Display using Plotly
+Plotly.newPlot("myPlot", data, layout);
+</script>
+    </div>
+    <div id="myPlot2" style="width:100%">
+    <script>
+const xArray2 = [2017,2018,2019,2020,2021,2022,2023,2024,2025,2026,2027];
+const yArray2 = [83.3,85.6,89.1,105.5,122.2,117.3,140.3,155.2,171.9,180.7,191.3];
+
+// Define Data
+const data2 = [{
+  x: xArray2,
+  y: yArray2,
+  mode:"lines+markers"
+
+}
+marker: {
+    color: black,
+    size: 8
+  }];
+
+// Define Layout
+const layout2 = {
+  xaxis: {range: [2017, 2027], title: "Year"},
+  yaxis: {range: [80,200], title: "Revenue in USD Billions"},
+  title: "Footwear Industry size"
+};
+
+// Display using Plotly
+Plotly.newPlot("myPlot2", data2, layout2);
+</script>
+    </div>
+</body>
+</html>
